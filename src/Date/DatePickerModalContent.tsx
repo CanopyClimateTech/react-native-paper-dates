@@ -142,7 +142,7 @@ export function DatePickerModalContent(
   const defaultUppercase = !theme.isV3
   return (
     <>
-      <DatePickerModalHeaderBackground>
+      {/*<DatePickerModalHeaderBackground>
         <DatePickerModalHeader
           locale={locale}
           onSave={onInnerConfirm}
@@ -170,7 +170,7 @@ export function DatePickerModalContent(
           calendarIcon={props.calendarIcon}
           allowEditing={props.allowEditing ?? true}
         />
-      </DatePickerModalHeaderBackground>
+      </DatePickerModalHeaderBackground> */}
       <AnimatedCrossView
         collapsed={collapsed}
         calendar={
